@@ -1,53 +1,197 @@
-# " Système de Détection de Fraude par Carte de Crédit "
+# Credit Card Fraud Detection  
+# Détection de Fraude par Carte de Crédit
 
-Description : Implémentation d'un système de détection de fraude utilisant des techniques d'apprentissage automatique pour identifier les transactions frauduleuses sur les cartes de crédit.
+---
 
-## Projet en cours de réalisation par : 
+## English
 
-● Zineb Doukkali         
+### Description
 
-(Groupe B)
+This project aims to develop a credit card fraud detection system using Machine Learning techniques.
 
-● Wiam BEL MEHDI         
+The objective is to automatically identify suspicious transactions from transactional data by distinguishing normal transactions from fraudulent ones.
 
-(Groupe B)
+The project follows a complete Data Science pipeline: data exploration, preprocessing, handling class imbalance, training classification models, and evaluating model performance.
 
-● Younes BEL MEHDI       
+### Project Objectives
 
-(Groupe B)
+- Analyze banking transaction data.
+- Identify the most relevant features for fraud detection.
+- Prepare and clean the data before modeling.
+- Handle the class imbalance between normal and fraudulent transactions.
+- Train supervised classification models.
+- Evaluate model performance using appropriate metrics.
+- Build a system that can support the automatic detection of suspicious transactions.
 
-## Fonctionnalités proposé :
+### Features
 
-• En tant qu'utilisateur, je peux pouvoir personnaliser les paramètres de détection de fraude pour mieux correspondre à mes habitudes d'achat et réduire les faux positifs.
+- Dataset loading and exploration.
+- Statistical analysis and data visualization.
+- Data preprocessing: cleaning, normalization, and feature preparation.
+- Handling imbalanced classes.
+- Training Machine Learning models.
+- Evaluation using metrics such as:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - Confusion matrix
+- Identification of potentially fraudulent transactions.
 
-• En tant qu'utilisateur, je peux avoir accès à des rapports et des analyses sur l'activité de ma carte de crédit pour mieux comprendre les tendances et les risques potentiels.
+### Methodology
 
-• En tant qu'utilisateur, je peux recevoir des alertes en temps réel lorsque des transactions suspectes sont détectées sur ma carte de crédit.
+1. **Data Exploration**
+   - Analysis of the dataset structure.
+   - Study of class distribution.
+   - Visualization of trends and outliers.
 
-• En tant qu'administrateur du système, je peux être en mesure de mettre à jour et d'améliorer les algorithmes de détection de fraude pour rester à jour avec les nouvelles tendances et les méthodes de fraude.
+2. **Preprocessing**
+   - Data cleaning.
+   - Normalization of numerical variables.
+   - Splitting the data into training and testing sets.
 
-• En tant qu'administrateur du système, je peux pouvoir gérer les utilisateurs et leurs permissions pour assurer la sécurité et l'intégrité du système.
+3. **Modeling**
+   - Training supervised classification models.
+   - Comparing model performances.
+   - Selecting the most suitable model for fraud detection.
 
-• En tant qu'utilisateur je peux pouvoir m'inscrire et créer un compte pour accéder au système de détection de fraude
+4. **Evaluation**
+   - Analysis of the confusion matrix.
+   - Interpretation of recall and precision.
+   - Evaluation of the model’s ability to detect fraud while limiting false positives.
 
-• En tant qu'administrateur du système, je peux recevoir des rapports réguliers sur les performances du système de détection de fraude, y compris les taux de détection et les faux positifs.
+### Technologies Used
 
-• En tant qu'utilisateur, je peux pouvoir examiner en détail les transactions suspectes pour décider de les approuver ou de les signaler comme frauduleuses.
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-## Technologies :
-• Python,
+### Domain
 
-• scikit-learn ou TensorFlow pour le machine learning, 
+- Data Science
+- Machine Learning
+- Supervised Classification
+- Fraud Detection
+- Financial Data Analysis
 
-• pandas pour la manipulation des données.
+### Authors
 
-## Domaine technologique :
-Machine Learning, 
+Project developed by:
 
+- Zineb Doukkali
+- Wiam BEL MEHDI
+- Younes BEL MEHDI
 
-Cyber-Sécurité.
+Group B
 
-## Date final du projet :
-le mai 2024
+### Project Date
 
+May 2024
 
+### Note
+
+This project was developed in an academic context.  
+The data used is intended for learning and experimentation with Machine Learning models for fraud detection.
+
+---
+
+## Français
+
+### Description
+
+Ce projet consiste à développer un système de détection de fraude par carte de crédit à l’aide de techniques de Machine Learning.
+
+L’objectif est d’identifier automatiquement les transactions suspectes à partir de données transactionnelles, en distinguant les transactions normales des transactions frauduleuses.
+
+Le projet met en œuvre un pipeline complet de Data Science : exploration des données, prétraitement, gestion du déséquilibre des classes, entraînement de modèles de classification et évaluation des performances.
+
+### Objectifs du projet
+
+- Analyser les données de transactions bancaires.
+- Identifier les variables les plus pertinentes pour la détection de fraude.
+- Préparer et nettoyer les données avant la modélisation.
+- Traiter le problème de déséquilibre entre transactions normales et frauduleuses.
+- Entraîner des modèles de classification supervisée.
+- Évaluer les performances à l’aide de métriques adaptées.
+- Proposer un système capable d’aider à la détection automatique des transactions suspectes.
+
+### Fonctionnalités
+
+- Chargement et exploration du dataset.
+- Analyse statistique et visualisation des données.
+- Prétraitement des données : nettoyage, normalisation et préparation des variables.
+- Gestion du déséquilibre des classes.
+- Entraînement de modèles de Machine Learning.
+- Évaluation avec des métriques telles que :
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - Matrice de confusion
+- Identification des transactions potentiellement frauduleuses.
+
+### Méthodologie
+
+1. **Exploration des données**
+   - Analyse de la structure du dataset.
+   - Étude de la distribution des classes.
+   - Visualisation des tendances et des valeurs extrêmes.
+
+2. **Prétraitement**
+   - Nettoyage des données.
+   - Normalisation des variables numériques.
+   - Séparation des données en jeu d’entraînement et jeu de test.
+
+3. **Modélisation**
+   - Entraînement de modèles de classification supervisée.
+   - Comparaison des performances des modèles.
+   - Sélection du modèle le plus adapté à la détection de fraude.
+
+4. **Évaluation**
+   - Analyse de la matrice de confusion.
+   - Interprétation du recall et de la precision.
+   - Évaluation de la capacité du modèle à détecter les fraudes tout en limitant les faux positifs.
+
+### Technologies utilisées
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+### Domaine
+
+- Data Science
+- Machine Learning
+- Classification supervisée
+- Détection de fraude
+- Analyse de données financières
+
+### Auteurs
+
+Projet réalisé par :
+
+- Zineb Doukkali
+- Wiam BEL MEHDI
+- Younes BEL MEHDI
+
+Groupe B
+
+### Date du projet
+
+Mai 2024
+
+### Remarque
+
+Ce projet a été réalisé dans un cadre académique.  
+Les données utilisées sont destinées à l’apprentissage et à l’expérimentation de modèles de Machine Learning pour la détection de fraude.
+
+---
+```
